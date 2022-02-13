@@ -77,7 +77,7 @@ async def welcome(_, message: Message):
         except:
             return
 
-
+"""
 @app.on_message(filters.command(["help", "start"]) & filters.group)
 @PermissionCheck
 async def useradd(_, message: Message):
@@ -89,7 +89,7 @@ async def useradd(_, message: Message):
             reply_markup=InlineKeyboardMarkup(out[1]),
         ),
     )
-
+"""
 
 @app.on_message(filters.command("settings") & filters.group)
 @PermissionCheck
